@@ -1,0 +1,25 @@
+#center {
+  display: flex;
+  width: 100%;
+  height: 80%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 0vw 2.3vw;
+}
+.left {
+  width: 28%;
+}
+.left p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.7vw;
+  font-weight: 600;
+  line-height: 0.9;
+}
+#center h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11vw;
+  font-weight: 700;
+  text-align: flex-end;
+  line-height: 0.8;
+}

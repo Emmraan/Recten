@@ -1,0 +1,55 @@
+#wraper{
+  position: relative;
+}
+.gooey{
+    position: absolute;
+    left: 25%;
+    top: 15%;
+    width: 37vw;
+    height: 36vw;
+    background:linear-gradient(to bottom,orangered,rgb(255, 81, 0));
+    border-radius: 50%;
+    filter: blur(20px);
+    animation-name: gooey;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  @keyframes gooey {
+    from{
+      transform: translate(-10%,2%)skew(-5deg);
+    }
+    to{
+      transform: translate(10%,-10%)skew(5deg);
+    }
+  }
+  #wc {
+    position: relative;
+    z-index: 99;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 25em;
+    padding: 0vw 2.3vw;
+  }
+  #wc h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11vw;
+    font-weight: 700;
+  }
+  .foot {
+    width: 25%;
+    display: flex;
+    padding: 13px 20px;
+    gap: 27px;
+    border: 1px solid rgba(128, 128, 128, 0.247);
+    border-radius: 23px;
+    background-color: #efeae3;
+  }
+  .foot h6{
+    color: rgba(0, 0, 0, 0.719);
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
