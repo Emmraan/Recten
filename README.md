@@ -8,7 +8,7 @@ To use this project, follow these simple steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/stronvn/Recten.git
+   git clone https://github.com/Emmraan/Recten.git
 
 2. Navigate into the project directory:
    ```bash
