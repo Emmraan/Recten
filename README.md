@@ -8,7 +8,7 @@ To use this project, follow these simple steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/stronvn/Recten.git
+   git clone https://github.com/Emmraan/Recten.git
 
 2. Navigate into the project directory:
    ```bash
@@ -26,3 +26,5 @@ To use this project, follow these simple steps:
 
 
 This will start the development server, and you can view the app in your browser at http://localhost:3000.
+## Live site at: https://bd217416-894d-4caa-95de-d8e60f5eed07-00-vew9vtsgl5vo.sisko.replit.dev/
+## Other link: https://recten.onrender.com/
